@@ -8,7 +8,7 @@ import java.util.Set;
 /**
  * Problem source : <url>https://leetcode-cn.com/problems/generate-parentheses/</url>
  * Commit on leedcode at 2020-5-4 22:12:00. But there is something wrong with leetcode website
- * 
+ *
  * @author marlinl
  * @version 1.0
  * @date 2020/5/3 11:52 PM

@@ -1,6 +1,8 @@
 package com.marlinl.leetcode.problems;
 
-import java.util.*;
+
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * Problems source: <url>https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/</url>
