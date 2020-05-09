@@ -5,10 +5,10 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * Problems source : <url>https://leetcode-cn.com/classic/problems/restore-ip-addresses/description/</url>
+ * Problems source : <url>https://leetcode-cn.com/problems/restore-ip-addresses/</url>
  * Cost : 2 ms
  * Memory : 39 MB
- * 
+ *
  * @auther marlinl
  * @date 2020-05-08 14:47
  */
