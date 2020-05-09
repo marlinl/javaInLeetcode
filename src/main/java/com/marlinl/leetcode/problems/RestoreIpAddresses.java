@@ -6,8 +6,9 @@ import java.util.List;
 
 /**
  * Problems source : <url>https://leetcode-cn.com/classic/problems/restore-ip-addresses/description/</url>
- * Ready to commit leetcode website
- *
+ * Cost : 2 ms
+ * Memory : 39 MB
+ * 
  * @auther marlinl
  * @date 2020-05-08 14:47
  */
@@ -64,6 +65,9 @@ public class RestoreIpAddresses {
     }
 
     private int getIp(int[] string, int start, int end) {
+        if (string[start] == 0 && start != end) {
+            return -1;
+        }
         int figure = 1;
         int value = 0;
         while (start <= end) {
@@ -79,6 +83,6 @@ public class RestoreIpAddresses {
 
     public static void main(String[] args) {
         RestoreIpAddresses addresses = new RestoreIpAddresses();
-        System.out.println(addresses.restoreIpAddresses("25525511135"));
+        System.out.println(addresses.restoreIpAddresses("010010"));
     }
 }
